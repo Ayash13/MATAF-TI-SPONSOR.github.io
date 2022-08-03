@@ -10,7 +10,7 @@ body{
 /* layout */
 #contents {}
 #section1 { height: 100vh;  }
-#section2 { position: relative; }
+#section2 { position: relative;  }
 #section3 { background:#C7E5D5; }
 #section4 { position: relative; background:#F1EED8;  }
 #section5 { background: #CAC8DB; position: relative; z-index: 10;}
@@ -824,6 +824,7 @@ button{
     transition: 1s all ease;
     position: relative;
 }
+
 .pattern3{
     z-index: -1;
     opacity: 0;
@@ -1061,3 +1062,25 @@ button{
 @media (max-width: 600px){
     
 }
+.responsive{
+    padding-top: 60%; /* 3:2 Aspect Ratio */
+}
+.contener {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    padding-top: 60%; /* 3:2 Aspect Ratio */
+}
+
+.responsive-iframe {
+ position: absolute;
+ top: 0;
+ left: 0;
+ bottom: 0;
+ right: 0;
+ width: 100%;
+ height: 100%;
+ border: none;
+ }
+
+
